@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-14T03:48:01.169Z",
+  "lastSuccessfulSyncAt": "2026-10-14T03:48:01.169Z",
+  "sources": [
+    "https://developers.openai.com/api/docs/pricing",
+    "https://platform.claude.com/docs/en/about-claude/pricing",
+    "https://ai.google.dev/gemini-api/docs/pricing",
+    "https://help.aliyun.com/en/model-studio/model-pricing",
+    "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+    "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+    "https://open.bigmodel.cn/pricing",
+    "https://platform.kimi.com/",
+    "https://platform.minimax.io/subscribe/token-plan",
+    "https://cloud.baidu.com/product-s/qianfan_home",
+    "https://cloud.tencent.com/document/product/1729/97731"
+  ],
+  "models": [
+    {
+      "id": "openai-gpt-4-1-mini",
+      "provider": "OpenAI",
+      "name": "GPT-4.1 mini",
+      "apiModelId": "gpt-4.1-mini",
+      "market": "international",
+      "categories": [
+        "文本",
+        "编程"
+      ],
+      "currency": "USD",
+      "unit": "per_1m_tokens",
+      "plans": [
+        {
+          "id": "standard",
+          "label": "标准 API",
+          "tiers": [
+            {
+              "inputPerMillion": 0.4,
+              "cachedPerMillion": 0.1,
+              "outputPerMillion": 1.6
+            }
+          ]
+        }
+      ],
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "modelSource": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+      "checkedAt": "2026-10-14",
+      "region": "全球 API",
+      "note": "按 1M tokens 计费；缓存输入使用官方缓存输入费率。",
+      "status": "verified"
+    },
+    {
+      "id": "anthropic-claude-sonnet-5-5",
+      "provider": "Anthropic",
+      "name": "Claude Sonnet 5.5",
+      "apiModelId": "claude-sonnet-5-5",
+      "market": "international",
+      "categories": [
+        "文本",
+        "推理",
+        "编程"
+      ],
+      "currency": "USD",
+      "unit": "per_1m_tokens",
+      "plans": [
+        {
+          "id": "standard",
+          "label": "标准 API",
+          "tiers": [
+            {
+              "inputPerMillion": 2,
+              "outputPerMillion": 10
+            }
+          ]
+        }
+      ],
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "modelSource": "https://www.anthropic.com/claude-sonnet-5-5",
+      "checkedAt": "2026-10-14",
+      "region": "全球 API",
+      "note": "缓存读取价格随官方价格页核验；此快照未将未核验的缓存价纳入计算。",
+      "status": "verified"
+    },
+    {
+      "id": "google-gemini-3-8-flash",
+      "provider": "Google",
+      "name": "Gemini 3.8 Flash",
+      "apiModelId": "gemini-3.8-flash",
+      "market": "international",
+      "categories": [
+        "文本",
+        "推理",
+        "视觉"
+      ],
+      "currency": "USD",
+      "unit": "per_1m_tokens",
+      "plans": [
+        {
+          "id": "standard",
+          "label": "限时 API 价（至 2026-12-31）",
+          "tiers": [
+            {
+              "inputPerMillion": 0.75,
+              "outputPerMillion": 3.75
+            }
+          ]
+        }
+      ],
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "modelSource": "https://ai.google.dev/gemini-api/docs/latest-model",
+      "checkedAt": "2026-10-14",
+      "region": "全球 API",
+      "note": "官方标注的入门价有效至 2026-12-31；未核验到独立缓存价。",
+      "status": "verified"
+    },
+    {
+      "id": "qwen-max",
+      "provider": "阿里云·通义千问",
+      "name": "Qwen Max",
+      "apiModelId": "qwen-max",
+      "market": "domestic",
+      "categories": [
+        "文本",
+        "推理"
+      ],
+      "currency": "CNY",
+      "unit": "per_1m_tokens",
+      "plans": [
+        {
+          "id": "non-thinking",
+          "label": "中国内地 · 非思考模式（无阶梯价）",
+          "tiers": [
+            {
+              "inputPerMillion": 2.4,
+              "outputPerMillion": 9.6
+            }
+          ]
+        }
+      ],
+      "source": "https://help.aliyun.com/en/model-studio/model-pricing",
+      "modelSource": "https://help.aliyun.com/en/model-studio/model-pricing",
+      "checkedAt": "2026-10-14",
+      "region": "中国内地 · 非思考模式",
+      "note": "官方价目表标注该模式无阶梯价；缓存没有单独价格字段，按输入价估算。其他地区与思考模式的费率可能不同。",
+      "status": "verified"
+    },
+    {
+      "id": "deepseek-flash",
+      "provider": "DeepSeek",
+      "name": "DeepSeek V4.1 Flash",
+      "apiModelId": "deepseek-flash",
+      "market": "domestic",
+      "categories": [
+        "文本",
+        "推理",
+        "视觉",
+        "编程"
+      ],
+      "currency": "CNY",
+      "unit": "per_1m_tokens",
+      "plans": [
+        {
+          "id": "off-peak",
+          "label": "空闲时段（缓存命中 ¥0.02 / 未命中 ¥1 / 输出 ¥4）",
+          "tiers": [
+            {
+              "inputPerMillion": 1,
+              "cachedPerMillion": 0.02,
+              "outputPerMillion": 4
+            }
+          ]
+        },
+        {
+          "id": "peak",
+          "label": "高峰时段（缓存命中 ¥0.04 / 未命中 ¥2 / 输出 ¥8）",
+          "tiers": [
+            {
+              "inputPerMillion": 2,
+              "cachedPerMillion": 0.04,
+              "outputPerMillion": 8
+            }
+          ]
+        }
+      ],
+      "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+      "modelSource": "https://api-docs.deepseek.com/updates/",
+      "checkedAt": "2026-10-14",
+      "region": "DeepSeek API（中国价目页）",
+      "note": "官方每百万 tokens 价格；工作日北京时间 9–12 点、14–18 点（法定节假日除外）为高峰。",
+      "status": "verified"
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "provider": "DeepSeek",
+      "name": "DeepSeek V4 Pro",
+      "apiModelId": "deepseek-v4-pro",
+      "market": "domestic",
+      "categories": [
+        "文本",
+        "推理",
+        "编程"
+      ],
+      "currency": "CNY",
+      "unit": "per_1m_tokens",
+      "plans": [
+        {
+          "id": "off-peak",
+          "label": "空闲时段（缓存命中 ¥0.15 / 未命中 ¥4.50 / 输出 ¥13.50）",
+          "tiers": [
+            {
+              "inputPerMillion": 4.5,
+              "cachedPerMillion": 0.15,
+              "outputPerMillion": 13.5
+            }
+          ]
+        },
+        {
+          "id": "peak",
+          "label": "高峰时段（缓存命中 ¥0.30 / 未命中 ¥9 / 输出 ¥27）",
+          "tiers": [
+            {
+              "inputPerMillion": 9,
+              "cachedPerMillion": 0.3,
+              "outputPerMillion": 27
+            }
+          ]
+        }
+      ],
+      "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+      "modelSource": "https://api-docs.deepseek.com/updates/",
+      "checkedAt": "2026-10-14",
+      "region": "DeepSeek API（中国价目页）",
+      "note": "官方每百万 tokens 价格；工作日北京时间 9–12 点、14–18 点（法定节假日除外）为高峰。",
+      "status": "verified"
+    },
+    {
+      "id": "doubao-seed-2-1-pro-260915",
+      "provider": "火山引擎·豆包",
+      "name": "Doubao Seed 2.1 Pro",
+      "apiModelId": "doubao-seed-2-1-pro-260915",
+      "market": "domestic",
+      "categories": [
+        "文本",
+        "推理",
+        "视觉",
+        "编程"
+      ],
+      "currency": "CNY",
+      "unit": "per_1m_tokens",
+      "plans": [
+        {
+          "id": "standard",
+          "label": "常规在线推理（输入长度 0–1,024K）",
+          "tiers": [
+            {
+              "maxInputTokens": 1024000,
+              "inputPerMillion": 6,
+              "cachedPerMillion": 1.2,
+              "outputPerMillion": 30
+            }
+          ]
+        }
+      ],
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "modelSource": "https://docs.volcengine.com/docs/ark/model-list?lang=zh",
+      "checkedAt": "2026-10-14",
+      "region": "中国内地 · 在线推理",
+      "note": "标准公开价：输入 ¥6、缓存命中 ¥1.20、输出 ¥30 / 百万 tokens。在线低优先级费率不同；官方另列缓存存储 ¥0.017 / 百万 tokens / 小时，本估算未计入该项。",
+      "status": "verified"
+    },
+    {
+      "id": "glm-5-3",
+      "provider": "智谱 AI · GLM",
+      "name": "GLM-5.3",
+      "apiModelId": "glm-5.3",
+      "market": "domestic",
+      "categories": [
+        "文本",
+        "推理",
+        "编程"
+      ],
+      "currency": "CNY",
+      "unit": "per_1m_tokens",
+      "plans": null,
+      "source": "https://open.bigmodel.cn/pricing",
+      "modelSource": "https://z.ai/blog/glm-5.3",
+      "checkedAt": "2026-10-14",
+      "region": "中国大陆平台",
+      "note": "官方已确认模型/API 名称；当前可访问的官方公开来源未能确认同一模型的大陆平台标准 API 单价，因此不参与费用计算。",
+      "status": "review"
+    },
+    {
+      "id": "kimi-k3",
+      "provider": "月之暗面·Kimi",
+      "name": "Kimi K3",
+      "apiModelId": null,
+      "market": "domestic",
+      "categories": [
+        "文本",
+        "推理",
+        "视觉",
+        "编程"
+      ],
+      "currency": "CNY",
+      "unit": "per_1m_tokens",
+      "plans": [
+        {
+          "id": "standard",
+          "label": "标准 API",
+          "tiers": [
+            {
+              "inputPerMillion": 20,
+              "cachedPerMillion": 2,
+              "outputPerMillion": 100
+            }
+          ]
+        }
+      ],
+      "source": "https://platform.kimi.com/",
+      "modelSource": "https://platform.kimi.com/",
+      "checkedAt": "2026-10-14",
+      "region": "Kimi 开放平台",
+      "note": "官方公开平台显示该型号单价，但主页未列 API 请求模型 ID；请在实际调用前核对模型列表，价格计算仅作该型号标价估算。",
+      "status": "verified"
+    },
+    {
+      "id": "minimax-m2-7",
+      "provider": "MiniMax",
+      "name": "MiniMax M2.7",
+      "apiModelId": "MiniMax-M2.7",
+      "market": "domestic",
+      "categories": [
+        "文本",
+        "推理",
+        "编程"
+      ],
+      "currency": "USD",
+      "unit": "per_1m_tokens",
+      "plans": [
+        {
+          "id": "standard",
+          "label": "国际 API · 标准优先级",
+          "tiers": [
+            {
+              "inputPerMillion": 0.3,
+              "cachedPerMillion": 0.06,
+              "outputPerMillion": 1.2
+            }
+          ]
+        }
+      ],
+      "source": "https://platform.minimax.io/subscribe/token-plan",
+      "modelSource": "https://platform.minimax.io/docs/guides/text-generation",
+      "checkedAt": "2026-10-14",
+      "region": "MiniMax 国际 API",
+      "note": "不含 Token Plan 订阅额度；API 按量价格，按 1M tokens 计费。",
+      "status": "verified"
+    },
+    {
+      "id": "baidu-ernie-4-5-turbo-128k",
+      "provider": "百度·文心",
+      "name": "ERNIE 4.5 Turbo 128K",
+      "apiModelId": "ernie-4.5-turbo-128k",
+      "market": "domestic",
+      "categories": [
+        "文本",
+        "推理",
+        "编程"
+      ],
+      "currency": "CNY",
+      "unit": "per_1m_tokens",
+      "plans": [
+        {
+          "id": "standard",
+          "label": "千帆在线服务",
+          "tiers": [
+            {
+              "inputPerMillion": 0.8,
+              "outputPerMillion": 3.2
+            }
+          ]
+        }
+      ],
+      "source": "https://cloud.baidu.com/product-s/qianfan_home",
+      "modelSource": "https://cloud.baidu.com/doc/qianfan-api/s/Dmba8k71y",
+      "checkedAt": "2026-10-14",
+      "region": "百度千帆",
+      "note": "公开展示费率按每千 tokens 标价，已换算为每百万 tokens；此模型未单列缓存价格。",
+      "status": "verified"
+    },
+    {
+      "id": "tencent-hunyuan-a13b",
+      "provider": "腾讯·混元",
+      "name": "Hunyuan A13B",
+      "apiModelId": "hunyuan-a13b",
+      "market": "domestic",
+      "categories": [
+        "文本",
+        "推理"
+      ],
+      "currency": "CNY",
+      "unit": "per_1m_tokens",
+      "plans": [
+        {
+          "id": "standard",
+          "label": "混元生文按量价",
+          "tiers": [
+            {
+              "inputPerMillion": 0.5,
+              "outputPerMillion": 2
+            }
+          ]
+        }
+      ],
+      "source": "https://cloud.tencent.com/document/product/1729/97731",
+      "modelSource": "https://cloud.tencent.com/document/product/1729/104753",
+      "checkedAt": "2026-10-14",
+      "region": "腾讯云混元",
+      "note": "官方刊例价为每百万 tokens；腾讯文档提示旧混元服务逐步迁移至 TokenHub，新增服务请核对迁移后的模型目录与价格。",
+      "status": "verified"
+    }
+  ],
+  "syncStatus": {
+    "successfulSources": 8,
+    "totalSources": 8,
+    "failedProviders": [],
+    "pendingReviewCount": 1
+  }
+}
+
