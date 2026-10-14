@@ -1,14 +1,14 @@
 {
-  "lastRunAt": "2026-10-14T07:05:24.613Z",
+  "lastRunAt": "2026-10-14T22:21:23.769Z",
   "sourceHashes": {
-    "qwen-pricing": "159516287cec1ceeaceee684a4796a2d26739d468b36f5f0fbd363f0a3cb4f64",
+    "qwen-pricing": "ee79929bc12436294c35d6a49281f5cc249466689b9272ef71088f8d8c7d3d48",
     "deepseek-pricing": "5a7b1832592387340f2fc456399b34b89b05f3fa167c2e35909e2fa4afe021e3",
-    "doubao-pricing": "c6ffc4ff3d1b37e2f986a19ed52e17ed1a7f4a5d2c25fcaadb3976df1e6775e1",
-    "glm-pricing": "5d083985b22b4e88efb2ffa3a6c3ffd1de3b4a69a175ae20184e6d677c3fda41",
-    "kimi-models-pricing": "ed53b59dbd445d0a0b4748264bbf249b69900e12b178a3729b6f558eda3351e9",
+    "doubao-pricing": "39b0aaca8e9ea4dd75d4eda4a934cfa9b2dba6f8d43898937c512d0e3bfc58c4",
+    "glm-pricing": "16f87ee29fc191d70846f9f4fac5c629f1143d09e3fc79b0fb5f92331fd08d9e",
+    "kimi-models-pricing": "a0768c33e202f92fdfd902901f8f2b47b5415efcf541b298ab507ce37d06072a",
     "minimax-pricing": "c13ae445ca9f07d809f81c89f0ae7ab54ca307742ded2f6fd6d43bc29f1f999e",
     "baidu-qianfan-pricing": "1237248a251e2233c16e73bdb5a04507c07fbf3ea38c64cc44e80f75fc6c8c1b",
-    "tencent-hunyuan-pricing": "5bfeb99bddcfe1ad61d2301a7eebecd5071e86ef3c41d1f7eba841ea82f17034"
+    "tencent-hunyuan-pricing": "333a6e41e804dedbff2c7f36cfb6ecf436226d4d879a7b5df99c4d832e6176c8"
   },
   "discoveredModelIds": {
     "qwen-pricing": [
@@ -102,7 +102,35 @@
       "deepseek-v4-flash",
       "deepseek-v4-flash-vision-exp"
     ],
-    "doubao-pricing": [],
+    "doubao-pricing": [
+      "doubao-seed-evolving",
+      "doubao-seed-2.1-pro",
+      "doubao-seed-2.1-lite",
+      "doubao-seed-2.1-turbo",
+      "doubao-seed-2.0-pro",
+      "doubao-seed-2.0-lite",
+      "doubao-seed-2.0-mini",
+      "doubao-seed-2.0-code",
+      "doubao-seed-character",
+      "doubao-seed-translation",
+      "doubao-seedance-2.5",
+      "doubao-seedance-2.0",
+      "doubao-seedance-2.0-fast",
+      "doubao-seedance-2.0-mini",
+      "doubao-seedance-1.0-pro",
+      "doubao-seedance-1.0-pro-fast",
+      "doubao-seedream-5-0-pro",
+      "doubao-seedream-5-0-flash",
+      "doubao-seedream-5-0-lite",
+      "doubao-seedream-4-5",
+      "doubao-seedream-4-0",
+      "doubao-seed3d-2.0",
+      "doubao-embedding-vision",
+      "Doubao-embedding",
+      "Doubao-embedding-large",
+      "Doubao-embedding-vision-text",
+      "Doubao-embedding-vision-image"
+    ],
     "glm-pricing": [],
     "kimi-models-pricing": [],
     "minimax-pricing": [],
