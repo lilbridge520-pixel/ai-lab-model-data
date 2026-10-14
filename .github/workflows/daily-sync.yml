@@ -1,0 +1,43 @@
+name: Daily model data sync
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/daily-sync.yml'
+      - 'sync.mjs'
+      - 'test/**'
+  schedule:
+    # GitHub may delay scheduled workflows. This is 03:17 Asia/Shanghai in UTC.
+    - cron: '17 19 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: model-data-sync
+  cancel-in-progress: false
+
+jobs:
+  sync-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run sync tests
+        run: node --test test/sync.test.mjs
+      - name: Fetch official sources and validate changes
+        run: node sync.mjs
+      - name: Save verified data and audit state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data state
+          if ! git diff --cached --quiet; then
+            git commit -m "Update verified model data"
+            git push
+          fi
+
