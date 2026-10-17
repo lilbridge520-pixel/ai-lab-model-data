@@ -1,6 +1,13 @@
 {
-  "generatedAt": "2026-10-16T22:07:46.192Z",
+  "generatedAt": "2026-10-17T21:30:46.954Z",
   "pending": [
+    {
+      "type": "new-model-candidate",
+      "provider": "DeepSeek",
+      "modelId": "DeepSeek-V4.1-Flash-1017",
+      "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
     {
       "type": "source-changed-needs-parser",
       "provider": "火山引擎·豆包",
@@ -9,8 +16,8 @@
     },
     {
       "type": "source-changed-needs-parser",
-      "provider": "智谱 AI · GLM",
-      "source": "https://open.bigmodel.cn/pricing",
+      "provider": "MiniMax",
+      "source": "https://platform.minimax.io/subscribe/token-plan",
       "reason": "官方源内容发生变化；此来源暂无无歧义费率解析器，保留旧价并等待人工核验。"
     }
   ],
