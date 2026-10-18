@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T21:30:46.954Z",
-  "lastSuccessfulSyncAt": "2026-10-17T21:30:46.954Z",
+  "generatedAt": "2026-10-18T21:33:32.303Z",
+  "lastSuccessfulSyncAt": "2026-10-18T21:33:32.303Z",
   "sources": [
     "https://developers.openai.com/api/docs/pricing",
     "https://platform.claude.com/docs/en/about-claude/pricing",
@@ -423,6 +423,6 @@
     "successfulSources": 8,
     "totalSources": 8,
     "failedProviders": [],
-    "pendingReviewCount": 3
+    "pendingReviewCount": 1
   }
 }
