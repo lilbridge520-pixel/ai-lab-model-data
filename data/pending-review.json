@@ -1,10 +1,211 @@
 {
-  "generatedAt": "2026-10-18T21:33:32.303Z",
+  "generatedAt": "2026-10-19T22:55:33.545Z",
   "pending": [
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seed-evolving",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seed-2.1-pro",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seed-2.1-lite",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seed-2.1-turbo",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seed-2.0-pro",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seed-2.0-lite",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seed-2.0-mini",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seed-2.0-code",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seed-character",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seed-translation",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seedance-2.5",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seedance-2.0",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seedance-2.0-fast",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seedance-2.0-mini",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seedance-1.0-pro",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seedance-1.0-pro-fast",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seedream-5-0-pro",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seedream-5-0-flash",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seedream-5-0-lite",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seedream-4-5",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seedream-4-0",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-seed3d-2.0",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "doubao-embedding-vision",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "Doubao-embedding",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "Doubao-embedding-large",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "Doubao-embedding-vision-text",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
+    {
+      "type": "new-model-candidate",
+      "provider": "火山引擎·豆包",
+      "modelId": "Doubao-embedding-vision-image",
+      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
+    },
     {
       "type": "source-changed-needs-parser",
       "provider": "火山引擎·豆包",
       "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
+      "reason": "官方源内容发生变化；此来源暂无无歧义费率解析器，保留旧价并等待人工核验。"
+    },
+    {
+      "type": "source-changed-needs-parser",
+      "provider": "智谱 AI · GLM",
+      "source": "https://open.bigmodel.cn/pricing",
+      "reason": "官方源内容发生变化；此来源暂无无歧义费率解析器，保留旧价并等待人工核验。"
+    },
+    {
+      "type": "source-changed-needs-parser",
+      "provider": "MiniMax",
+      "source": "https://platform.minimax.io/subscribe/token-plan",
       "reason": "官方源内容发生变化；此来源暂无无歧义费率解析器，保留旧价并等待人工核验。"
     }
   ],
