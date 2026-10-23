@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T22:25:25.178Z",
+  "generatedAt": "2026-10-23T22:18:14.603Z",
   "pending": [
     {
       "type": "source-changed-needs-parser",
@@ -14,5 +14,11 @@
       "reason": "官方源内容发生变化；此来源暂无无歧义费率解析器，保留旧价并等待人工核验。"
     }
   ],
-  "failures": []
+  "failures": [
+    {
+      "provider": "月之暗面·Kimi",
+      "source": "https://platform.kimi.com/",
+      "error": "官方主页未找到 Kimi K3 型号卡片"
+    }
+  ]
 }

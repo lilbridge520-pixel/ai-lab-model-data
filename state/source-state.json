@@ -1,14 +1,14 @@
 {
-  "lastRunAt": "2026-10-22T22:25:36.339Z",
+  "lastRunAt": "2026-10-23T22:18:24.585Z",
   "sourceHashes": {
-    "qwen-pricing": "0b3bebb84012773b4cd30374debf60cc40a918fe3676465424e8b042d1da4b0d",
+    "qwen-pricing": "b21e6901898593be87acee090a09e3b0feb57d5edb1124221580568eb40a6b2c",
     "deepseek-pricing": "556097caba8adfeeed6455714bffd731c7f60db520fcee06a922eba5840663a3",
-    "doubao-pricing": "7cdcb5853a34783380946e4207af0ce3397756f0f5b754cb92cda8ee0e172e2a",
-    "glm-pricing": "c83e66b116cee602de5574825ebaa3041f26c63713c63e04e7b80c735e1bee59",
-    "kimi-models-pricing": "194958f4b12731069f7ce2bb46fa003e4314fd2385114d70d7d85ecb1d993c0b",
+    "doubao-pricing": "a2fcf397e761311d13cd0406dd0c2a21e523cccaabd29d9f894296d730219727",
+    "glm-pricing": "8610f55537ff71cb005a7586afab5390efea25c17bd9d3fff113fce49262edce",
+    "kimi-models-pricing": "dc93c5b21014d70374ffca51902447319c30f0c12ee72d6d119af0c788a25d3d",
     "minimax-pricing": "17e9b2b7b0382d27f830cbf2818bb36d994075ca0c395cbe71367f367ac1edcd",
     "baidu-qianfan-pricing": "208a0bb589a81dd7a8e28fd00475da307618d0c3d47431d4403ee7327e403f2f",
-    "tencent-hunyuan-pricing": "fb8be21983d4b075d3bef8604becd86c2f908ed7c4a4637ddc5aa2c7ae77f215"
+    "tencent-hunyuan-pricing": "ebd25fecbfaba16010c90ec76e0d5f794ac2efa618abf9a386dbff1d5162af63"
   },
   "discoveredModelIds": {
     "qwen-pricing": [
@@ -129,5 +129,11 @@
       "Hunyuan-embedding"
     ]
   },
-  "failures": []
+  "failures": [
+    {
+      "provider": "月之暗面·Kimi",
+      "source": "https://platform.kimi.com/",
+      "error": "官方主页未找到 Kimi K3 型号卡片"
+    }
+  ]
 }

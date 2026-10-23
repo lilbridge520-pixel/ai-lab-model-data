@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T22:25:25.178Z",
-  "lastSuccessfulSyncAt": "2026-10-22T22:25:25.178Z",
+  "generatedAt": "2026-10-23T22:18:14.603Z",
+  "lastSuccessfulSyncAt": "2026-10-23T22:18:14.603Z",
   "sources": [
     "https://developers.openai.com/api/docs/pricing",
     "https://platform.claude.com/docs/en/about-claude/pricing",
@@ -420,9 +420,11 @@
     }
   ],
   "syncStatus": {
-    "successfulSources": 8,
+    "successfulSources": 7,
     "totalSources": 8,
-    "failedProviders": [],
+    "failedProviders": [
+      "月之暗面·Kimi"
+    ],
     "pendingReviewCount": 2
   }
 }
