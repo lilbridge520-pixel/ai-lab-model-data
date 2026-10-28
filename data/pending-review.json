@@ -1,13 +1,6 @@
 {
-  "generatedAt": "2026-10-27T22:59:29.859Z",
+  "generatedAt": "2026-10-28T23:17:46.030Z",
   "pending": [
-    {
-      "type": "new-model-candidate",
-      "provider": "阿里云·通义千问",
-      "modelId": "qwen-audio-3.1-realtime-flash",
-      "source": "https://help.aliyun.com/en/model-studio/model-pricing",
-      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
-    },
     {
       "type": "source-changed-needs-parser",
       "provider": "火山引擎·豆包",
