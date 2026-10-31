@@ -1,16 +1,10 @@
 {
-  "generatedAt": "2026-10-30T23:00:29.932Z",
+  "generatedAt": "2026-10-31T22:34:07.305Z",
   "pending": [
     {
       "type": "source-changed-needs-parser",
       "provider": "火山引擎·豆包",
       "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
-      "reason": "官方源内容发生变化；此来源暂无无歧义费率解析器，保留旧价并等待人工核验。"
-    },
-    {
-      "type": "source-changed-needs-parser",
-      "provider": "MiniMax",
-      "source": "https://platform.minimax.io/subscribe/token-plan",
       "reason": "官方源内容发生变化；此来源暂无无歧义费率解析器，保留旧价并等待人工核验。"
     }
   ],
