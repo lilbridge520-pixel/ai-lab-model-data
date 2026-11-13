@@ -1,14 +1,14 @@
 {
-  "lastRunAt": "2026-11-12T01:34:16.927Z",
+  "lastRunAt": "2026-11-13T00:32:34.828Z",
   "sourceHashes": {
-    "qwen-pricing": "b2f5276b7b2c740bde65e00cb3aadebb46734a1de2427800e2505b25f557ef64",
+    "qwen-pricing": "72bdea4a9ff9ffe58b665ed0d1f15fb2fbad8a408304eb5628ebc4293957f884",
     "deepseek-pricing": "74c2c92d5a725de1d423e4f7debc02edc777747ed7ebb0b3ef0f70bc652a7b20",
-    "doubao-pricing": "aac372d9ab610a6b9ff3e1890820951e8d075aa092cde851479c02e65dbdb683",
-    "glm-pricing": "26b233d11014395cf5f87dc565955912b158f6cc69bf6695a77eb92d4729ea58",
-    "kimi-models-pricing": "555160fec69c4fabaf2dcf5905df56b0df187f538d92b476b7f7b7bb25cb0007",
-    "minimax-pricing": "0ea044fa8f420e8680b637b92bac2efeefd8058547dc2443101527009e014c53",
-    "baidu-qianfan-pricing": "ecf0a98f4fa814939b022e4964e8d9151faa635dad05a62f68b2c94e2e9a0738",
-    "tencent-hunyuan-pricing": "3fd38181a5b76e0de3f2119bf2d082640cbba5c80965f73ad58184ea072056f7"
+    "doubao-pricing": "ca578e0774a507b4d7dd45f280d46f3502e845bee563178b55845f361b35d965",
+    "glm-pricing": "dcf198b2331200fddadfe30eadce8dbbfcc0951b81feafc45bc0e83950eff0f7",
+    "kimi-models-pricing": "b99638225991403a4fdd18058b5647d2611449a04ee9c51509e6f220a19cd619",
+    "minimax-pricing": "506bd42da2f3762a5e11edfb22a887ced6bfe99cb44813b225dac7bf37928de5",
+    "baidu-qianfan-pricing": "bb776e2e4a3493efb09802c0ea6d5df8edff6bddfbf85b108f3c6999f797dd07",
+    "tencent-hunyuan-pricing": "aa6ec1f106accf7bae48ed8f770342ca058183afb96532caf00b53551cc867e2"
   },
   "discoveredModelIds": {
     "qwen-pricing": [
@@ -118,11 +118,13 @@
       "doubao-seed-character",
       "doubao-seed-translation",
       "doubao-seedance-2.5",
+      "doubao-seedance-2.5-flash",
       "doubao-seedance-2.0",
       "doubao-seedance-2.0-fast",
       "doubao-seedance-2.0-mini",
       "doubao-seedance-1.0-pro",
       "doubao-seedance-1.0-pro-fast",
+      "doubao-seedream-5-5",
       "doubao-seedream-5-0-pro",
       "doubao-seedream-5-0-flash",
       "doubao-seedream-5-0-lite",
@@ -165,6 +167,11 @@
       "provider": "月之暗面·Kimi",
       "source": "https://platform.kimi.com/",
       "error": "官方主页未找到 Kimi K3 型号卡片"
+    },
+    {
+      "provider": "百度·文心",
+      "source": "https://cloud.baidu.com/product-s/qianfan_home",
+      "error": "官方页面未找到预期 API 模型 ID"
     }
   ]
 }
