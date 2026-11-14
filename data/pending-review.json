@@ -1,20 +1,6 @@
 {
-  "generatedAt": "2026-11-13T00:32:23.368Z",
+  "generatedAt": "2026-11-14T00:21:52.332Z",
   "pending": [
-    {
-      "type": "new-model-candidate",
-      "provider": "火山引擎·豆包",
-      "modelId": "doubao-seedance-2.5-flash",
-      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
-      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
-    },
-    {
-      "type": "new-model-candidate",
-      "provider": "火山引擎·豆包",
-      "modelId": "doubao-seedream-5-5",
-      "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
-      "reason": "官方页面出现目录中尚未收录的型号标识；需核验 API 可用性、地区和完整费率后才能加入计算器。"
-    },
     {
       "type": "source-changed-needs-parser",
       "provider": "火山引擎·豆包",
