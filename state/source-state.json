@@ -1,14 +1,14 @@
 {
-  "lastRunAt": "2026-11-14T23:02:15.386Z",
+  "lastRunAt": "2026-11-15T23:24:55.873Z",
   "sourceHashes": {
-    "qwen-pricing": "da3375f2c5ea3573638b2d7c02932a465963deae2807eda3db6e21f66e129788",
+    "qwen-pricing": "b78f79fdcee73480e2affcdbb2baf6b3170ea7d130a927aff34a46d277ff7173",
     "deepseek-pricing": "23b70cda2e51dde6685a59c7336d0cf7a672b54f9000004b9166514f5e81510e",
-    "doubao-pricing": "69962f20711c48d85e1a311150aef2e5c9e804fe56e2e4fcbc3c9176ea792fb7",
+    "doubao-pricing": "1d2c7fdf316be96c44d71cf37fe935a62557583cde146c25e70aa39bfdd8e69a",
     "glm-pricing": "b0660a23c10b66954539fc6ce409db1dcdbddcbe29104d6fadcaac99af8d8bad",
     "kimi-models-pricing": "b99638225991403a4fdd18058b5647d2611449a04ee9c51509e6f220a19cd619",
     "minimax-pricing": "a0cb41e1219a52adb496bf9934d3c1ef8089a3d776d7c2857dd8193a100980e9",
     "baidu-qianfan-pricing": "6c86e777c7666847380c4122ddc6460448b0919fdeab6145f8d44cf48c6f2c3b",
-    "tencent-hunyuan-pricing": "e1a38fa032bd9cd44baaa881f7bf6448fc9b4f44303264eefc278015a12fabd2"
+    "tencent-hunyuan-pricing": "265a0e1d9489bef41f55a9ccda0ff5f3a8d9f0d218ee3073eca47992ed021d84"
   },
   "discoveredModelIds": {
     "qwen-pricing": [
