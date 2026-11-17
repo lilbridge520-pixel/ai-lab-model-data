@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-15T23:24:43.106Z",
+  "generatedAt": "2026-11-17T02:30:16.597Z",
   "pending": [
+    {
+      "type": "large-price-change",
+      "provider": "阿里云·通义千问",
+      "modelId": "qwen-max",
+      "source": "https://help.aliyun.com/en/model-studio/model-pricing",
+      "previous": {
+        "inputPerMillion": 2.4,
+        "outputPerMillion": 9.6
+      },
+      "candidate": {
+        "inputPerMillion": 12.5,
+        "outputPerMillion": 20
+      },
+      "reason": "单次价格变化超过 50%，保留旧价等待人工复核。",
+      "evidence": "qwen-max Non-Thinking mode only No tiered pricing CNY 2.4 CNY 9.6 No free quota qwen4-max — Cache price (per million tokens) Cache write (5m) Cache write (1h) Explicit/implicit cache read CNY 12.5 CNY 20 CNY 0.5 US (Virginia) Model ID Deployment scope Mode Input tokens per request Input price (per 1 million tokens"
+    },
     {
       "type": "source-changed-needs-parser",
       "provider": "火山引擎·豆包",
