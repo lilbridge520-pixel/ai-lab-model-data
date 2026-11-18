@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T02:30:16.597Z",
-  "lastSuccessfulSyncAt": "2026-11-17T02:30:16.597Z",
+  "generatedAt": "2026-11-18T01:39:55.156Z",
+  "lastSuccessfulSyncAt": "2026-11-18T01:39:55.156Z",
   "sources": [
     "https://developers.openai.com/api/docs/pricing",
     "https://platform.claude.com/docs/en/about-claude/pricing",
@@ -420,9 +420,10 @@
     }
   ],
   "syncStatus": {
-    "successfulSources": 6,
+    "successfulSources": 5,
     "totalSources": 8,
     "failedProviders": [
+      "阿里云·通义千问",
       "月之暗面·Kimi",
       "百度·文心"
     ],
