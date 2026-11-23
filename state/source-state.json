@@ -1,14 +1,14 @@
 {
-  "lastRunAt": "2026-11-21T23:50:13.848Z",
+  "lastRunAt": "2026-11-23T00:21:20.685Z",
   "sourceHashes": {
-    "qwen-pricing": "8ac27b155b6869263bdf8b7d01372ab4b6f0656fbf7882cbb5c1c2561e295ea5",
+    "qwen-pricing": "76ecdf40f93e9fe6320ec2928166a20b8557d881e8a485c1503de1c36c0b89dd",
     "deepseek-pricing": "e872c2c8277f4682c5d4db3e5cc5f88f3462b403c30dea7753cdb025b004e43c",
-    "doubao-pricing": "f42e1094d10d6e9d93f1269f8b92ac4c6b24cf4612432f37871d2bf248703c06",
+    "doubao-pricing": "04012798fc8f803dc262987574527f7b9c33e5615ba9760c7429fd8438e514cf",
     "glm-pricing": "298bd16e2eb22fbcc080f8b151b6b7644b9e7da5402b03fbfe41f68f455034d8",
     "kimi-models-pricing": "5322de59f4ad4a56723710d9a850ed9d7b78e8e6c76d8d34c3dcd4912a9fe246",
     "minimax-pricing": "a0cb41e1219a52adb496bf9934d3c1ef8089a3d776d7c2857dd8193a100980e9",
     "baidu-qianfan-pricing": "6f69523fe4de7ed664c8bfa3974e0ca5de0736692f925f5bf77850af0f376eaf",
-    "tencent-hunyuan-pricing": "55578f5cdd7e216c47d3f74c1c55dd560385674f07a00a17e6572cd778099e33"
+    "tencent-hunyuan-pricing": "5ff85e21e6c40ad27d682fdf0f4b6641acbaa646701ffa9dfe5168a128a40bb9"
   },
   "discoveredModelIds": {
     "qwen-pricing": [
@@ -106,7 +106,30 @@
       "deepseek-v4-flash",
       "deepseek-v4-flash-vision-exp"
     ],
-    "doubao-pricing": [],
+    "doubao-pricing": [
+      "doubao-seed-evolving",
+      "doubao-seed-2.1-pro",
+      "doubao-seed-2.1-lite",
+      "doubao-seed-2.1-turbo",
+      "doubao-seed-2.0-pro",
+      "doubao-seed-2.0-lite",
+      "doubao-seed-2.0-mini",
+      "doubao-seed-2.0-code",
+      "doubao-seed-character",
+      "doubao-seed-translation",
+      "doubao-seedream-5-5",
+      "doubao-seedream-5-0-pro",
+      "doubao-seedream-5-0-flash",
+      "doubao-seedream-5-0-lite",
+      "doubao-seedream-4-5",
+      "doubao-seedream-4-0",
+      "doubao-seed3d-2.0",
+      "doubao-embedding-vision",
+      "Doubao-embedding",
+      "Doubao-embedding-large",
+      "Doubao-embedding-vision-text",
+      "Doubao-embedding-vision-image"
+    ],
     "glm-pricing": [],
     "kimi-models-pricing": [],
     "minimax-pricing": [],
