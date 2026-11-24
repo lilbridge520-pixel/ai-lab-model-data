@@ -1,14 +1,14 @@
 {
-  "lastRunAt": "2026-11-23T00:21:20.685Z",
+  "lastRunAt": "2026-11-24T04:19:42.655Z",
   "sourceHashes": {
-    "qwen-pricing": "76ecdf40f93e9fe6320ec2928166a20b8557d881e8a485c1503de1c36c0b89dd",
-    "deepseek-pricing": "e872c2c8277f4682c5d4db3e5cc5f88f3462b403c30dea7753cdb025b004e43c",
-    "doubao-pricing": "04012798fc8f803dc262987574527f7b9c33e5615ba9760c7429fd8438e514cf",
-    "glm-pricing": "298bd16e2eb22fbcc080f8b151b6b7644b9e7da5402b03fbfe41f68f455034d8",
+    "qwen-pricing": "1ccba9c176c75bbf151905c3ea42b585013f9dfc6ac30ee2e8a9975f5672fdf5",
+    "deepseek-pricing": "d3206b3e7362ce93b994dfa7f4a79a5bcfed3ed166fa37f3c2e02daf6f608268",
+    "doubao-pricing": "825c64794564bfecc5aaed808fc64521a9cbbf668e3ebfe7878923a1ef42c958",
+    "glm-pricing": "d292bb10ef7fbf0500bd2b2b0747b9e93286edaa55c42dfcc12d27868438f5c0",
     "kimi-models-pricing": "5322de59f4ad4a56723710d9a850ed9d7b78e8e6c76d8d34c3dcd4912a9fe246",
-    "minimax-pricing": "a0cb41e1219a52adb496bf9934d3c1ef8089a3d776d7c2857dd8193a100980e9",
-    "baidu-qianfan-pricing": "6f69523fe4de7ed664c8bfa3974e0ca5de0736692f925f5bf77850af0f376eaf",
-    "tencent-hunyuan-pricing": "5ff85e21e6c40ad27d682fdf0f4b6641acbaa646701ffa9dfe5168a128a40bb9"
+    "minimax-pricing": "5202b1a8f90fa53580b0245d7b76daa79f8adb02e2325910f9d4dac862fb9437",
+    "baidu-qianfan-pricing": "14f8efbd19eedd628fbe64d5b6f318af9250bbd00b866432740ab5761914e7dc",
+    "tencent-hunyuan-pricing": "78d8252893d61d88333fc97166f48cff4713301e3037cfed0f6651f7ea5a6918"
   },
   "discoveredModelIds": {
     "qwen-pricing": [
@@ -83,6 +83,8 @@
       "Qwen-TTS",
       "qwen-tts-flash",
       "Qwen-TTS-Realtime",
+      "Qwen-Audio-3.1-Captioner",
+      "qwen-audio-3.1-captioner",
       "Qwen-Audio-TTS-Next",
       "qwen-audio-3.1-tts-next",
       "Qwen-Audio-Realtime",
@@ -90,6 +92,8 @@
       "qwen-audio-3.1-realtime-flash",
       "qwen-audio-3.0-realtime-plus",
       "qwen-audio-3.0-realtime-flash",
+      "Qwen-Audio-Live",
+      "qwen-audio-3.1-live",
       "Qwen-LiveTranslate-Flash-Realtime",
       "Qwen-LiveTranslate-Flash",
       "qwen-voice-enrollment",
@@ -156,11 +160,6 @@
     ]
   },
   "failures": [
-    {
-      "provider": "阿里云·通义千问",
-      "source": "https://help.aliyun.com/en/model-studio/model-pricing",
-      "error": "qwen-max 官方价格行无法无歧义解析"
-    },
     {
       "provider": "月之暗面·Kimi",
       "source": "https://platform.kimi.com/",
