@@ -1,14 +1,14 @@
 {
-  "lastRunAt": "2026-11-24T04:19:42.655Z",
+  "lastRunAt": "2026-11-25T03:04:14.173Z",
   "sourceHashes": {
-    "qwen-pricing": "1ccba9c176c75bbf151905c3ea42b585013f9dfc6ac30ee2e8a9975f5672fdf5",
+    "qwen-pricing": "215eaa6950e6eef523cf47121f22740ea223796c6aed82074d4843f36c1ea0bb",
     "deepseek-pricing": "d3206b3e7362ce93b994dfa7f4a79a5bcfed3ed166fa37f3c2e02daf6f608268",
-    "doubao-pricing": "825c64794564bfecc5aaed808fc64521a9cbbf668e3ebfe7878923a1ef42c958",
-    "glm-pricing": "d292bb10ef7fbf0500bd2b2b0747b9e93286edaa55c42dfcc12d27868438f5c0",
+    "doubao-pricing": "625dcc9b2e1b259a520a3712ab8cccb5b38d0bed71955b0ebe08c5405f085fdc",
+    "glm-pricing": "777b065bb1b70d2dd0fe8842ff5920e0bbf7dec820e6be5ff124c715ddc6ad5b",
     "kimi-models-pricing": "5322de59f4ad4a56723710d9a850ed9d7b78e8e6c76d8d34c3dcd4912a9fe246",
-    "minimax-pricing": "5202b1a8f90fa53580b0245d7b76daa79f8adb02e2325910f9d4dac862fb9437",
-    "baidu-qianfan-pricing": "14f8efbd19eedd628fbe64d5b6f318af9250bbd00b866432740ab5761914e7dc",
-    "tencent-hunyuan-pricing": "78d8252893d61d88333fc97166f48cff4713301e3037cfed0f6651f7ea5a6918"
+    "minimax-pricing": "8f57fbeb08aa96d65d9e699f343ca50d174093b92762beb2fa3d6a34ee5894f6",
+    "baidu-qianfan-pricing": "efff5fc0ff87af2fb88dd2b46ef2cd5810d849c8d59678f8401f69e93e1f636f",
+    "tencent-hunyuan-pricing": "bff9f555a3dab598b0757e0356dd18362ad43e6098aa646ca9dcfbbb4de05ee3"
   },
   "discoveredModelIds": {
     "qwen-pricing": [
@@ -118,14 +118,11 @@
       "doubao-seed-2.0-pro",
       "doubao-seed-2.0-lite",
       "doubao-seed-2.0-mini",
-      "doubao-seed-2.0-code",
       "doubao-seed-character",
       "doubao-seed-translation",
       "doubao-seedream-5-5",
       "doubao-seedream-5-0-pro",
       "doubao-seedream-5-0-flash",
-      "doubao-seedream-5-0-lite",
-      "doubao-seedream-4-5",
       "doubao-seedream-4-0",
       "doubao-seed3d-2.0",
       "doubao-embedding-vision",
