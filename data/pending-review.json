@@ -1,22 +1,10 @@
 {
-  "generatedAt": "2026-11-25T03:03:58.306Z",
+  "generatedAt": "2026-11-26T02:16:13.941Z",
   "pending": [
     {
       "type": "source-changed-needs-parser",
       "provider": "火山引擎·豆包",
       "source": "https://docs.volcengine.com/docs/ark/model-pricing?lang=zh",
-      "reason": "官方源内容发生变化；此来源暂无无歧义费率解析器，保留旧价并等待人工核验。"
-    },
-    {
-      "type": "source-changed-needs-parser",
-      "provider": "智谱 AI · GLM",
-      "source": "https://open.bigmodel.cn/pricing",
-      "reason": "官方源内容发生变化；此来源暂无无歧义费率解析器，保留旧价并等待人工核验。"
-    },
-    {
-      "type": "source-changed-needs-parser",
-      "provider": "MiniMax",
-      "source": "https://platform.minimax.io/subscribe/token-plan",
       "reason": "官方源内容发生变化；此来源暂无无歧义费率解析器，保留旧价并等待人工核验。"
     }
   ],
