@@ -1,14 +1,14 @@
 {
-  "lastRunAt": "2026-11-26T02:16:24.437Z",
+  "lastRunAt": "2026-11-27T02:16:28.315Z",
   "sourceHashes": {
-    "qwen-pricing": "4017a5a22f75700cc232919fe1e838b1f58a26fae7507fb9c0db9e0c5716db8d",
+    "qwen-pricing": "75994c47ab3f69dc0b8925abe41444185e926461c3c57277dfee8ba7b6c6a1f8",
     "deepseek-pricing": "d3206b3e7362ce93b994dfa7f4a79a5bcfed3ed166fa37f3c2e02daf6f608268",
-    "doubao-pricing": "55e586380a8651220dc7d6cba1e8219cacd6b04a7fbafba2438c0007e0f82554",
-    "glm-pricing": "777b065bb1b70d2dd0fe8842ff5920e0bbf7dec820e6be5ff124c715ddc6ad5b",
-    "kimi-models-pricing": "df88cd95367a01b66818c26a16746f1717d80ab781981469a4f8e58a37f70858",
+    "doubao-pricing": "81f0008d423b2fa10cf8aec93066aea724589a2564dc152fd25803dd44731714",
+    "glm-pricing": "ded8e5d111eefe38624cad92296b258436d77e389e81d2fd933251a1f48014b8",
+    "kimi-models-pricing": "d0f074de12508ba4734cefaabfa0b120ad30050edc137f42fe90f6ae3dee70f7",
     "minimax-pricing": "8f57fbeb08aa96d65d9e699f343ca50d174093b92762beb2fa3d6a34ee5894f6",
-    "baidu-qianfan-pricing": "efff5fc0ff87af2fb88dd2b46ef2cd5810d849c8d59678f8401f69e93e1f636f",
-    "tencent-hunyuan-pricing": "fe68c98fbba6affafd11571c45a492e3b5396a0307c93b23c286e144bfc1e17c"
+    "baidu-qianfan-pricing": "68098ef2dd3525fc02e451aa7ab7fa696a98572409241e06c3efeccede861883",
+    "tencent-hunyuan-pricing": "d9a076cc15267c895921a85052d4cb15a0f0b9920780dfe4d00727d2ff631455"
   },
   "discoveredModelIds": {
     "qwen-pricing": [
@@ -110,27 +110,7 @@
       "deepseek-v4-flash",
       "deepseek-v4-flash-vision-exp"
     ],
-    "doubao-pricing": [
-      "doubao-seed-evolving",
-      "doubao-seed-2.1-pro",
-      "doubao-seed-2.1-lite",
-      "doubao-seed-2.1-turbo",
-      "doubao-seed-2.0-pro",
-      "doubao-seed-2.0-lite",
-      "doubao-seed-2.0-mini",
-      "doubao-seed-character",
-      "doubao-seed-translation",
-      "doubao-seedream-5-5",
-      "doubao-seedream-5-0-pro",
-      "doubao-seedream-5-0-flash",
-      "doubao-seedream-4-0",
-      "doubao-seed3d-2.0",
-      "doubao-embedding-vision",
-      "Doubao-embedding",
-      "Doubao-embedding-large",
-      "Doubao-embedding-vision-text",
-      "Doubao-embedding-vision-image"
-    ],
+    "doubao-pricing": [],
     "glm-pricing": [],
     "kimi-models-pricing": [],
     "minimax-pricing": [],
