@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T02:16:15.086Z",
-  "lastSuccessfulSyncAt": "2026-11-27T02:16:15.086Z",
+  "generatedAt": "2026-11-28T02:01:37.491Z",
+  "lastSuccessfulSyncAt": "2026-11-28T02:01:37.491Z",
   "sources": [
     "https://developers.openai.com/api/docs/pricing",
     "https://platform.claude.com/docs/en/about-claude/pricing",
@@ -426,6 +426,6 @@
       "月之暗面·Kimi",
       "百度·文心"
     ],
-    "pendingReviewCount": 2
+    "pendingReviewCount": 22
   }
 }
